@@ -1,6 +1,7 @@
 {
     "name": "yiv/test1",
     "description": "test package for composer functionality",
+    "version": "0.1.0",
     "type": "library",
     "license": "MIT",
     "authors": [
