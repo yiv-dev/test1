@@ -9,6 +9,18 @@
             "email": "yiv@texolgroup.com"
         }
     ],
+    "require": {
+        "php": ">=7.0.0"
+    },
     "minimum-stability": "dev",
-    "require": {}
+    "autoload": {
+        "psr-4": {
+            "yiv\\test1\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        }
+    }
 }
